@@ -3,7 +3,7 @@
     <md-scroll-view
       ref="scrollView"
       :scrolling-y="false"
-      :touch-angle="80"
+      :touch-angle="1000"
       :is-prevent="false"
     >
       <div class="scroll-view-list">
@@ -17,7 +17,8 @@
   </div>
 </template>
 
-<script>import {ScrollView} from 'mand-mobile'
+<script>
+import {ScrollView} from 'mand-mobile'
 
 export default {
   name: 'scroll-view-demo-0',
@@ -36,7 +37,8 @@ export default {
     }
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .md-example-child-scroll-view-1
